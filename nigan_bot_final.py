@@ -12,7 +12,7 @@ from telegram.ext import (
 # Nigan Bot Configuration
 # =========================
 
-TOKEN = "PUT_YOUR_BOT_TOKEN_HERE"
+TOKEN = "8767160886:AAETaZwmB_DzPtVkyhtL334XjJlRWyZufAs"
 
 ADMIN_CHAT_ID = -1003981751098
 

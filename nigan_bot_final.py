@@ -291,7 +291,8 @@ async def handle_application_decision(update: Update, context: ContextTypes.DEFA
         request["status"] = "approved"
         FAMILY_MEMBERS.add(request["user_id"])
         status = "✅ وضعیت: تأیید شد"
-        user_message = "🎉 درخواست عضویت شما در Nigan تأیید شد.\n\nبه فمیلی خوش آمدید ❤️"
+        user_message = "🎉 درخواست عضویت شما در Nigan تأیید شد.\n\n به فمیلی خوش آمدید جهت عضویت به پیوی مراجعه کنید 
+        @Pv_SinaS❤️"
     elif action == "reject":
         request["status"] = "rejected"
         status = "❌ وضعیت: رد شد"
